@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="380dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/privacy_background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:text="What is LBM Calculator?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="According to Mucha, M., Małek, P., Zaborowska, Ł. (2023), Lean body mass is what your body would weight if you didn't have any body fat; that means it counts all the organs, bones, muscles, blood and skin, and everything else which is not fat but has mass."
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="15sp"
+        android:text="The importance of knowing your Lean Body Mass (LBM)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Knowing your lean body mass (LBM) is crucial for weight loss, as it helps monitor muscle loss and fat percentage. Calculating LBM helps determine the appropriate amount of fat to lose and avoid disappointment with diet results. You may refer to https://www.omnicalculator.com/health/lean-body-mass for more information."
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="Click anywhere outside this frame to dismiss!"/>
+
+
+</LinearLayout>

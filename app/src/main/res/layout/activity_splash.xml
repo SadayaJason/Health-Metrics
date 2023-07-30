@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/newbackground"><!--Health Metric Background Image.-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        app:lottie_rawRes="@raw/preloader"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/health_metric"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>

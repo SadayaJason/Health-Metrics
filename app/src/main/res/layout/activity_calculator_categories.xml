@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calculator_category_background"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".calculator_categories">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Calculators"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="150dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- First Layout: Name -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/bmiCalculator"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:lottie_rawRes="@raw/bmi_calculator"
+            android:layout_gravity="center"
+            android:background="@drawable/privacy_background"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/bmrCalculator"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:lottie_rawRes="@raw/bmr_calculator"
+            android:background="@drawable/privacy_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="BMI Calculator"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:text="BMR Calculator"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- First Layout: Name -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/bfpCalculator"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:lottie_rawRes="@raw/shieldhealth"
+            android:layout_gravity="center"
+            android:background="@drawable/privacy_background"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lbmCalculator"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:lottie_rawRes="@raw/lbm_calculator"
+            android:background="@drawable/privacy_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="BFP Calculator"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="LBM Calculator"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>-->
+
+</LinearLayout>

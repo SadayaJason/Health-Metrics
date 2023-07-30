@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Health Metric</string>
+    <string name="copyright">Copyright © 2023 Group 2\nAll Right Reserve</string>
+    <string name="health_metric">Health Metric</string>
+    <string name="intro_one_statement">Discover the perfect balance between fitness and knowledge. Empower yourself with accurate insights and achieve your health goals with confidence.</string>
+    <string name="intro_one_header">STAY FIT, STAY INFORMED</string>
+    <string name="intro_two_headerfirst">HEALTH SIMPLIFIED,</string>
+    <string name="intro_two_headersecond">HEALTH AMPLIFIED</string>
+    <string name="intro_twp_statement">Get accurate calculations, personalized insights, and amplified results for a healthier, happier you.</string>
+    <string name="intro_three_statement">Empower your health journey with precise calculations, knowledge, and wellness. Take control, make informed decisions, and pave your path to well-being.</string>
+    <string name="intro_three_header">Precision. Knowledge. Wellness.</string>
+    <string name="data_privacy_statement">We may gather data on your device when you use our application, such as your choices, usage patterns, and device specifications. This data is used to make sure the program functions as intended and to personalize the user experience, but you have the choice to refuse some data gathering activities.</string>
+    <string name="BMI_Statement">The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.</string>
+    <string name="Bmi_Condition_Statement"><![CDATA[• If your BMI is less than 18.5, it falls within the underweight range.\n • If your BMI is 18.5 to < 25, it falls within the healthy weight range.\n • If your BMI is 25.0 to < 30, it falls within the overweight range.\n • If your BMI is 30.0 or higher, it falls within the obesity range.\n]]></string>
+    <string name="Bmi_FigureOne_Statement">According to Defining Adult Overweight and Obesity, 2022, figure 1 shows the following criteria to determine your BMI output:</string>
+    <string name="Bmr_TableOne_Statement">According to Zidorio et al., 2019 The Oxford equation was used to deﬁne the predicted Resting Energy Expenditure (REE) at (Table 2)\n</string>
+</resources>

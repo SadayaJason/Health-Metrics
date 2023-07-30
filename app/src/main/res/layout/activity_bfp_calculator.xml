@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bfp_calculator"
+    android:orientation="vertical"
+    android:background="@drawable/appbackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please choose your Gender!"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- First Layout: Name -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/maleCalculation"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:lottie_rawRes="@raw/menwalking"
+            android:layout_gravity="center"
+            android:background="@drawable/privacy_background"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/femaleCalculation"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:lottie_rawRes="@raw/womenwalking"
+            android:background="@drawable/privacy_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Male                 "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center"
+            android:text="Female"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="did you know?"
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="According to Usa, I. (2019, November 15), Understanding your body fat percentage has uses outside of fitness, too. Keeping your body fat percentage at a healthy level can help reduce your likelihood of getting serious health risks, specifically, heart disease."
+        android:gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Sometimes, knowing things that has to do with our health is very beneficial to keep us intact and determine such factors to sty healthy."
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="80dp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="-Sir Jefferson's Student Assistant"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
+
+</LinearLayout>

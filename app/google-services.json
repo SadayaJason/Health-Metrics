@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453895634236",
+    "project_id": "healthmetricapplication",
+    "storage_bucket": "healthmetricapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453895634236:android:cc97fdc1f909a5356c7239",
+        "android_client_info": {
+          "package_name": "com.example.projectaltar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453895634236-ocnujf9qgf6t2p0c8h6es38kgb3goir1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3XGJbwjkDJuGF-sYfjm123uY5g1dUEuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453895634236-ocnujf9qgf6t2p0c8h6es38kgb3goir1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

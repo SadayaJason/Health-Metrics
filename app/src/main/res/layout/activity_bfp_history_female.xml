@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/appbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".BmrHistoryActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BFP History"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:layout_marginLeft="100dp"
+                android:textColor="@color/black"
+                android:fontFamily="serif"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"/>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/outputsHistory"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:lottie_rawRes="@raw/search"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/historyTextView"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            tools:text="BFP(Female) History will be displayed here"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
