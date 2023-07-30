@@ -1,4 +1,4 @@
-![image](https://github.com/SadayaJason/MobaProject/assets/140939197/03a14b5a-ff0b-47a4-b3b3-4e0a86e3821e)# HealthMetric
+# HealthMetric
 ![cover](https://github.com/SadayaJason/MobaProject/assets/140939197/51fe836e-1246-42aa-ab7e-7edffc762a4d)
 
 Introducing Health Metric - Your Android-based health calculator and data history manager. This innovative mobile application empowers users with a suite of comprehensive health calculators backed by advanced algorithms, fine-tuned through rigorous testing with existing and trained datasets. 
