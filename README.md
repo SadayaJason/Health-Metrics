@@ -41,7 +41,7 @@ According to Usa, I. (2019, November 15), understanding your body fat percentage
 
 According to De Groot, J. (2022, February 23), by looking at the elements which make up lean body mass and your overall calculation of lean body mass, you will have a much more accurate picture of how healthy you are and tracking this figure over time will show you the impact of diet and exercise on maintaining or improving your lean body mass percentage.
 
-### Historyy Calculator  
+### History Calculator  
 ![health metric](https://github.com/SadayaJason/MobaProject/assets/140939197/0a9bd15b-05d8-4752-9061-60b7ec7d3d07)
 
 A comprehensive compilation of historical data and contextual information concerning a specific subject matter.
