@@ -58,20 +58,22 @@ Click the link to play https://drive.google.com/file/d/1Y_eKXNU4KOPt-khBXaWSND9i
 * Diana Marie D. Romano
 * Jason V. Sadaya
 
-## Adviser: 
+## Subject Professor: 
 * Jefferson A. Costales
 
 ## School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
-
-Nagtahan, Sampaloc, Manila, Philippines
+Nagtahan, Sampaloc, Manila, Philippines.
 
 College of Arts and Sciences
+IT Department.
 
-ITE Department
-
-## Course: 
+## Course:  
 * Bachelor of Science in Information Technology
+### Subject 
+* Moblile Application Development
+### Year & Section
+* BSIT - 3B
 
 ## Date: 
 * July 30, 2023
